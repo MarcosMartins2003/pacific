@@ -28,7 +28,7 @@ const Forms = () => {
             onChange={(e) => setAdress(e.target.value)}/>
 
             <label htmlFor="phone">Telefone</label>
-            <input type="tel" name="phone" id="phone" value={number} 
+            <input type="number" name="phone" id="phone" value={number} 
             onChange={(e) => setNumber(e.target.value)}/>
 
             <label htmlFor="email">E-mail</label>
